@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="98434c5e-995c-45c2-a8e6-01cf1f64419a">
+	<meta id="59e84124-d8bb-4967-b290-a34a1874906a" type="group" folder="true" name="Materials">
+		<meta id="8c3cc8e0-f519-423d-b3ec-ca286cea1e27" name="BisonPlains_mat"/>
+	</meta>
+	<meta id="72c63e40-ce74-4f25-9a8a-8f69b7b451d0" type="group" folder="true" name="Meshes">
+		<meta id="c1d690f5-2da9-4441-9a28-b57210322191" name="BisonPlains_mesh_BisonPlains_mat"/>
+	</meta>
+	<meta id="8b30482e-93f9-439d-a702-5ac73cb87d82" name="Prefab">
+		<meta id="6b1c79be-2d20-4e55-9922-66763c125bbf" name="BisonPlains_root">
+			<meta id="77ff272b-f4da-4272-9bf7-0c6b2863c21a" name="BisonPlains_mesh"/>
+		</meta>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<Md5Checksum value="119c4cd16e68a73613103b71f2f83708"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="BisonPlains_mesh"/>
+					</Item>
+				</ChildList>
+				<NodeName value="BisonPlains_root"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="8c3cc8e0-f519-423d-b3ec-ca286cea1e27"/>
+			<MaterialName value="BisonPlains_mat"/>
+		</Item>
+	</MaterialList>
+</importer>
+
