@@ -55,4 +55,4 @@ lunarRevel:register({
 
 --[[-------------------------------- DO FILES ---------------------------------]]--
 
---lunarRevel:dofile("scripts/alteredTextures.lua")
+lunarRevel:dofile("scripts/fireworks.lua")
