@@ -12,13 +12,6 @@ lunarRevel:log("Lunar Revel Mod Loading")
 
 --[[---------------------------- GENERAL MATERIALS ----------------------------]]--
 
-lunarRevel:registerAssetId("models/pagoda.fbx/Materials/Material.RedScales", "MATERIAL_SCALES_RED")
-
-lunarRevel:override({
-    Id = "MATERIAL_SCALES_RED",
-    --IsLighted = false
-})
-
 --[[------------------------------ MAIN MONUMENT ------------------------------]]--
 
 lunarRevel:registerAssetId("models/pagoda.fbx/Prefab/PagodaPart", "PREFAB_PAGODA_1_PART")
