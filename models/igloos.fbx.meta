@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="147acb4f-b35e-4d2f-bc67-c0e9f6e2d442">
+	<meta id="87194beb-bc57-4252-8f58-f3debb56d8ec" type="group" folder="true" name="Materials">
+		<meta id="7eb5de2d-e65d-47c2-8d31-90b9251feefc" name="Material.StonebrickWhite"/>
+		<meta id="fb81e945-624f-4d1c-a581-cff68ddaa2ca" name="Material.SnowWhite"/>
+		<meta id="9944dc3b-a4f1-49ff-a4a1-e1f138eeaf1b" name="Material.Black"/>
+	</meta>
+	<meta id="8df8e889-2690-497c-a836-d7a1662f6d51" type="group" folder="true" name="Meshes">
+		<meta id="e7e39bf1-3d93-4d03-9bd7-b34995a84981" name="igloo_Material.StonebrickWhite"/>
+		<meta id="e29e8867-f539-4656-b63d-5f52ec7344e9" name="iglooDoor_Material.Black"/>
+		<meta id="90b67d62-4197-419b-8fa0-5cdd8af9a196" name="iglooChimney_Material.Black"/>
+		<meta id="f0d6ae93-11af-4f51-9d49-8aef27f12965" name="Cube"/>
+		<meta id="41d332f3-0835-46ef-b77a-493e7622282d" name="iglooChimney_Material.SnowWhite"/>
+		<meta id="511f1fbb-29f6-4b29-a788-94d79da03451" name="iglooDoor_Material.SnowWhite"/>
+		<meta id="47ed9eb0-ca14-40cb-8d01-574b5ebe7adc" name="iglooDoor.001_Material.SnowWhite"/>
+		<meta id="630b1de6-ec46-4380-8da0-2962455e0a71" name="iglooDoor.001_Material.Black"/>
+		<meta id="0caf53c0-4e77-458b-91fd-2e98a7c32752" name="igloo.001_Material.StonebrickWhite"/>
+	</meta>
+	<meta id="da9a8bf7-4ae3-406e-bef8-b68da7be7154" name="Prefab">
+		<meta id="6617d955-7d7c-4172-a00a-de14cd8852dd" name="Light"/>
+		<meta id="6005e032-8589-485e-a896-41e9d2b6baad" name="Camera"/>
+		<meta id="117713fa-3749-40bc-8f92-79d95cd2e356" name="iglooLevel1Density2Part">
+			<meta id="c95b4ab0-705f-4c85-b56b-372e97134026" name="SmokeEmitterL1D2"/>
+			<meta id="ae9e4e14-3fb3-4517-a3c8-ef0330cc87ed" name="PATH_A_0"/>
+			<meta id="9a992b2e-a891-4809-9963-515744f910e5" name="PATH_A_1"/>
+			<meta id="411ca6aa-d050-4179-9d1c-d262f5520e22" name="iglooChimney">
+				<meta id="560dc426-b57e-4900-94dd-4674bba92f59" name="iglooChimney_0"/>
+				<meta id="1ed80ad7-3bd7-4716-b019-fd5627dcc344" name="iglooChimney_1"/>
+			</meta>
+			<meta id="1cfda7c4-5ec4-48cc-8166-b3ac81810c82" name="iglooDoor">
+				<meta id="a5cd4786-9916-4fda-879d-c5c98614f916" name="iglooDoor_0"/>
+				<meta id="2c28c420-fc5d-459c-baf1-e303dedcb05a" name="iglooDoor_1"/>
+			</meta>
+			<meta id="79f23d4d-13ab-4629-89e3-bf435ab5d776" name="igloo"/>
+		</meta>
+		<meta id="286bc464-3693-4061-a8ff-418ede7351e7" name="housePart">
+			<meta id="97ffe9d8-34f4-4db5-85f5-0bca26df224d" name="Cube"/>
+		</meta>
+		<meta id="f6649e6b-7e93-45fe-b3f5-1fa4e95ea329" name="iglooLevel1Density1Part">
+			<meta id="b095058f-129f-4d5c-a488-4d208ff686db" name="SmokeEmitterL1D1"/>
+			<meta id="6e11aa70-7517-4367-80c0-1b8bbaa173d6" name="PATH_A_0.001"/>
+			<meta id="16816008-a66b-4196-99e9-19be443cf554" name="PATH_A_1.001"/>
+			<meta id="e57f05a2-d18c-4819-8802-9a998f1a3cd7" name="iglooChimney.001">
+				<meta id="905cb913-9c2f-45ac-a31c-e314bb434a4d" name="iglooChimney.001_0"/>
+				<meta id="15854e8a-6ee1-4d17-ad12-9a3792d50629" name="iglooChimney.001_1"/>
+			</meta>
+			<meta id="a4c1d90b-6c3a-455d-82d7-7ef3891737b4" name="iglooDoor.001">
+				<meta id="0d1191bf-3c80-4471-b772-ff1b43da6d5f" name="iglooDoor.001_0"/>
+				<meta id="f1653d90-7aed-44d2-ab3c-3da69758bd95" name="iglooDoor.001_1"/>
+			</meta>
+			<meta id="5c991a9b-a298-4a50-aab0-102f25922253" name="igloo.001"/>
+		</meta>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<Md5Checksum value="45a644777f4129709d1cdb45a405e711"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Light"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Camera"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SmokeEmitterL1D2"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="PATH_A_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="PATH_A_1"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="iglooChimney_0"/>
+							</Item>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="iglooChimney_1"/>
+							</Item>
+						</ChildList>
+						<NodeName value="iglooChimney"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="iglooDoor_0"/>
+							</Item>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="iglooDoor_1"/>
+							</Item>
+						</ChildList>
+						<NodeName value="iglooDoor"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="igloo"/>
+					</Item>
+				</ChildList>
+				<NodeName value="iglooLevel1Density2Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube"/>
+					</Item>
+				</ChildList>
+				<NodeName value="housePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SmokeEmitterL1D1"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="PATH_A_0.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="PATH_A_1.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="iglooChimney.001_0"/>
+							</Item>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="iglooChimney.001_1"/>
+							</Item>
+						</ChildList>
+						<NodeName value="iglooChimney.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="iglooDoor.001_0"/>
+							</Item>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="iglooDoor.001_1"/>
+							</Item>
+						</ChildList>
+						<NodeName value="iglooDoor.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="igloo.001"/>
+					</Item>
+				</ChildList>
+				<NodeName value="iglooLevel1Density1Part"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="9944dc3b-a4f1-49ff-a4a1-e1f138eeaf1b"/>
+			<MaterialName value="Material.Black"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="fb81e945-624f-4d1c-a581-cff68ddaa2ca"/>
+			<MaterialName value="Material.SnowWhite"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="7eb5de2d-e65d-47c2-8d31-90b9251feefc"/>
+			<MaterialName value="Material.StonebrickWhite"/>
+		</Item>
+	</MaterialList>
+</importer>
+
