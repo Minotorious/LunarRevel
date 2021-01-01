@@ -145,14 +145,14 @@ lunarRevel:register({
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
 	Material = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_YELLOW",
-	BillboardBehavior = "FACE_CAMERA",
+	BillboardBehavior = "FACE_CAMERA_Y_ALIGN",
 	MinimumQuality = "LOW",
     Duration = 3,
 	Looping = true,
 	Delay = { 0, 0 },
 	LifeTime = 3,
 	StartSpeed = { 0, 0 },
-	StartSize = { 2, 2 },
+	StartSize = { 1, 1 },
 	StartRotation = { 0, 0 },
 	StartColor = { 1, 1, 1, 1 },
 	GravityModifier = 0,
@@ -161,8 +161,7 @@ lunarRevel:register({
         {
             DataType = "PARTICLE_SUB_EMITTER_DATA",
             Type = "ON_DEATH",
-            System = "FIREWORKS_BURST_PARTICLE_SYSTEM_YELLOW",
-            AttachToParticle = true,
+            System = "FIREWORKS_BURST_PARTICLE_SYSTEM_YELLOW"
         }
     },
 	Shape = {
@@ -176,15 +175,19 @@ lunarRevel:register({
 	},
 	ColorOverLifeTime = {
 		DataType = "GRADIENT",
-		ColorList = {},
-		AlphaList = {},
+		ColorList = {
+            { T = 0, Color = {1, 1, 1, 1} }
+        },
+		AlphaList = {
+            { T = 0, Alpha = 100 },
+            { T = 0.9, Alpha = 100 },
+            { T = 1, Alpha = 0 }
+        },
 	},
 	SizeOverLifetime = {
-        { T = 0, Value = 0 },
-        { T = 0.25, Value = 1 },
-        { T = 0.5, Value = 2 },
-        { T = 0.75, Value = 1 },
-        { T = 1, Value = 2 }
+        { T = 0, Value = 0.5 },
+        { T = 0.5, Value = 1 },
+        { T = 1, Value = 2 },
 	},
 	RotationOverLifetime = { 0, 0 }
 })
@@ -214,8 +217,8 @@ lunarRevel:register({
 	},
 	LinearVelocity = {
 		DataType = "PARTICLE_FLOAT3_VALUE_CONSTANT_RANDOM",
-		ValueA = { 3, 0, 3 },
-		ValueB = { -3, 0, -3 }
+		ValueA = { 3, 3, 3 },
+		ValueB = { -3, -3, -3 }
 	},
 	ColorOverLifeTime = {
 		DataType = "GRADIENT",
@@ -247,14 +250,14 @@ lunarRevel:register({
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
 	Material = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_BLUE",
-	BillboardBehavior = "FACE_CAMERA",
+	BillboardBehavior = "FACE_CAMERA_Y_ALIGN",
 	MinimumQuality = "LOW",
     Duration = 3,
 	Looping = true,
 	Delay = { 0, 0 },
 	LifeTime = 3,
 	StartSpeed = { 0, 0 },
-	StartSize = { 2, 2 },
+	StartSize = { 1, 1 },
 	StartRotation = { 0, 0 },
 	StartColor = { 1, 1, 1, 1 },
 	GravityModifier = 0,
@@ -263,8 +266,7 @@ lunarRevel:register({
         {
             DataType = "PARTICLE_SUB_EMITTER_DATA",
             Type = "ON_DEATH",
-            System = "FIREWORKS_BURST_PARTICLE_SYSTEM_BLUE",
-            AttachToParticle = true,
+            System = "FIREWORKS_BURST_PARTICLE_SYSTEM_BLUE"
         }
     },
 	Shape = {
@@ -278,15 +280,19 @@ lunarRevel:register({
 	},
 	ColorOverLifeTime = {
 		DataType = "GRADIENT",
-		ColorList = {},
-		AlphaList = {},
+		ColorList = {
+            { T = 0, Color = {1, 1, 1, 1} }
+        },
+		AlphaList = {
+            { T = 0, Alpha = 100 },
+            { T = 0.9, Alpha = 100 },
+            { T = 1, Alpha = 0 }
+        },
 	},
 	SizeOverLifetime = {
-        { T = 0, Value = 0 },
-        { T = 0.25, Value = 1 },
-        { T = 0.5, Value = 2 },
-        { T = 0.75, Value = 1 },
-        { T = 1, Value = 2 }
+        { T = 0, Value = 0.5 },
+        { T = 0.5, Value = 1 },
+        { T = 1, Value = 2 },
 	},
 	RotationOverLifetime = { 0, 0 }
 })
@@ -316,8 +322,8 @@ lunarRevel:register({
 	},
 	LinearVelocity = {
 		DataType = "PARTICLE_FLOAT3_VALUE_CONSTANT_RANDOM",
-		ValueA = { 3, 0, 3 },
-		ValueB = { -3, 0, -3 }
+		ValueA = { 3, 3, 3 },
+		ValueB = { -3, -3, -3 }
 	},
 	ColorOverLifeTime = {
 		DataType = "GRADIENT",
@@ -349,14 +355,14 @@ lunarRevel:register({
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
 	Material = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_PURPLE",
-	BillboardBehavior = "FACE_CAMERA",
+	BillboardBehavior = "FACE_CAMERA_Y_ALIGN",
 	MinimumQuality = "LOW",
     Duration = 3,
 	Looping = true,
 	Delay = { 0, 0 },
 	LifeTime = 3,
 	StartSpeed = { 0, 0 },
-	StartSize = { 2, 2 },
+	StartSize = { 1, 1 },
 	StartRotation = { 0, 0 },
 	StartColor = { 1, 1, 1, 1 },
 	GravityModifier = 0,
@@ -365,8 +371,7 @@ lunarRevel:register({
         {
             DataType = "PARTICLE_SUB_EMITTER_DATA",
             Type = "ON_DEATH",
-            System = "FIREWORKS_BURST_PARTICLE_SYSTEM_PURPLE",
-            AttachToParticle = true,
+            System = "FIREWORKS_BURST_PARTICLE_SYSTEM_PURPLE"
         }
     },
 	Shape = {
@@ -380,15 +385,19 @@ lunarRevel:register({
 	},
 	ColorOverLifeTime = {
 		DataType = "GRADIENT",
-		ColorList = {},
-		AlphaList = {},
+		ColorList = {
+            { T = 0, Color = {1, 1, 1, 1} }
+        },
+		AlphaList = {
+            { T = 0, Alpha = 100 },
+            { T = 0.9, Alpha = 100 },
+            { T = 1, Alpha = 0 }
+        },
 	},
 	SizeOverLifetime = {
-        { T = 0, Value = 0 },
-        { T = 0.25, Value = 1 },
-        { T = 0.5, Value = 2 },
-        { T = 0.75, Value = 1 },
-        { T = 1, Value = 2 }
+        { T = 0, Value = 0.5 },
+        { T = 0.5, Value = 1 },
+        { T = 1, Value = 2 },
 	},
 	RotationOverLifetime = { 0, 0 }
 })
@@ -418,8 +427,8 @@ lunarRevel:register({
 	},
 	LinearVelocity = {
 		DataType = "PARTICLE_FLOAT3_VALUE_CONSTANT_RANDOM",
-		ValueA = { 3, 0, 3 },
-		ValueB = { -3, 0, -3 }
+		ValueA = { 3, 3, 3 },
+		ValueB = { -3, -3, -3 }
 	},
 	ColorOverLifeTime = {
 		DataType = "GRADIENT",
@@ -451,14 +460,14 @@ lunarRevel:register({
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
 	Material = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_RED",
-	BillboardBehavior = "FACE_CAMERA",
+	BillboardBehavior = "FACE_CAMERA_Y_ALIGN",
 	MinimumQuality = "LOW",
     Duration = 3,
 	Looping = true,
 	Delay = { 0, 0 },
 	LifeTime = 3,
 	StartSpeed = { 0, 0 },
-	StartSize = { 2, 2 },
+	StartSize = { 1, 1 },
 	StartRotation = { 0, 0 },
 	StartColor = { 1, 1, 1, 1 },
 	GravityModifier = 0,
@@ -467,8 +476,7 @@ lunarRevel:register({
         {
             DataType = "PARTICLE_SUB_EMITTER_DATA",
             Type = "ON_DEATH",
-            System = "FIREWORKS_BURST_PARTICLE_SYSTEM_RED",
-            AttachToParticle = true,
+            System = "FIREWORKS_BURST_PARTICLE_SYSTEM_RED"
         }
     },
 	Shape = {
@@ -482,15 +490,19 @@ lunarRevel:register({
 	},
 	ColorOverLifeTime = {
 		DataType = "GRADIENT",
-		ColorList = {},
-		AlphaList = {},
+		ColorList = {
+            { T = 0, Color = {1, 1, 1, 1} }
+        },
+		AlphaList = {
+            { T = 0, Alpha = 100 },
+            { T = 0.9, Alpha = 100 },
+            { T = 1, Alpha = 0 }
+        },
 	},
 	SizeOverLifetime = {
-        { T = 0, Value = 0 },
-        { T = 0.25, Value = 1 },
-        { T = 0.5, Value = 2 },
-        { T = 0.75, Value = 1 },
-        { T = 1, Value = 2 }
+        { T = 0, Value = 0.5 },
+        { T = 0.5, Value = 1 },
+        { T = 1, Value = 2 },
 	},
 	RotationOverLifetime = { 0, 0 }
 })
@@ -520,8 +532,8 @@ lunarRevel:register({
 	},
 	LinearVelocity = {
 		DataType = "PARTICLE_FLOAT3_VALUE_CONSTANT_RANDOM",
-		ValueA = { 3, 0, 3 },
-		ValueB = { -3, 0, -3 }
+		ValueA = { 3, 3, 3 },
+		ValueB = { -3, -3, -3 }
 	},
 	ColorOverLifeTime = {
 		DataType = "GRADIENT",
