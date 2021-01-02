@@ -13,6 +13,25 @@ local lunarRevel = ...
 lunarRevel:registerAssetId("models/igloos.fbx/Prefab/iglooLevel1Density1Part", "IGLOO_LEVEL_1_DENSITY_1_PREFAB")
 lunarRevel:registerAssetId("models/igloos.fbx/Prefab/iglooLevel1Density2Part", "IGLOO_LEVEL_1_DENSITY_2_PREFAB")
 
+lunarRevel:registerAssetId("models/igloos.fbx/Materials/Material.StonebrickWhite", "MATERIAL_STONEBRICK_WHITE")
+lunarRevel:registerAssetId("models/igloos.fbx/Materials/Material.SnowWhite", "MATERIAL_SNOW_WHITE")
+lunarRevel:registerAssetId("models/igloos.fbx/Materials/Material.Black", "MATERIAL_BLACK")
+
+lunarRevel:override({
+    Id = "MATERIAL_STONEBRICK_WHITE",
+    BackFaceVisible = true
+})
+
+lunarRevel:override({
+    Id = "MATERIAL_SNOW_WHITE",
+    BackFaceVisible = true
+})
+
+lunarRevel:override({
+    Id = "MATERIAL_BLACK",
+    BackFaceVisible = true
+})
+
 --[[--------------------- ASSET PROCESSOR & NODE HANDLING ---------------------]]--
 
 lunarRevel:registerAssetProcessor("models/igloos.fbx", { DataType = "BUILDING_ASSET_PROCESSOR" })

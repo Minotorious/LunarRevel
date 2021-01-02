@@ -12,9 +12,9 @@
 		<meta id="f0d6ae93-11af-4f51-9d49-8aef27f12965" name="Cube"/>
 		<meta id="41d332f3-0835-46ef-b77a-493e7622282d" name="iglooChimney_Material.SnowWhite"/>
 		<meta id="511f1fbb-29f6-4b29-a788-94d79da03451" name="iglooDoor_Material.SnowWhite"/>
-		<meta id="47ed9eb0-ca14-40cb-8d01-574b5ebe7adc" name="iglooDoor.001_Material.SnowWhite"/>
-		<meta id="630b1de6-ec46-4380-8da0-2962455e0a71" name="iglooDoor.001_Material.Black"/>
-		<meta id="0caf53c0-4e77-458b-91fd-2e98a7c32752" name="igloo.001_Material.StonebrickWhite"/>
+		<meta id="9503c8bb-6ccb-465b-b318-8574c1f825b5" name="iglooDoor.001_Material.SnowWhite"/>
+		<meta id="de8cc460-1b63-44f5-9473-0715552d98cf" name="iglooDoor.001_Material.Black"/>
+		<meta id="1e5cd56e-395f-4aed-9bcc-8632fbfbeffe" name="igloo.001_Material.StonebrickWhite"/>
 	</meta>
 	<meta id="da9a8bf7-4ae3-406e-bef8-b68da7be7154" name="Prefab">
 		<meta id="6617d955-7d7c-4172-a00a-de14cd8852dd" name="Light"/>
@@ -37,7 +37,6 @@
 			<meta id="97ffe9d8-34f4-4db5-85f5-0bca26df224d" name="Cube"/>
 		</meta>
 		<meta id="f6649e6b-7e93-45fe-b3f5-1fa4e95ea329" name="iglooLevel1Density1Part">
-			<meta id="b095058f-129f-4d5c-a488-4d208ff686db" name="SmokeEmitterL1D1"/>
 			<meta id="6e11aa70-7517-4367-80c0-1b8bbaa173d6" name="PATH_A_0.001"/>
 			<meta id="16816008-a66b-4196-99e9-19be443cf554" name="PATH_A_1.001"/>
 			<meta id="e57f05a2-d18c-4819-8802-9a998f1a3cd7" name="iglooChimney.001">
@@ -49,11 +48,12 @@
 				<meta id="f1653d90-7aed-44d2-ab3c-3da69758bd95" name="iglooDoor.001_1"/>
 			</meta>
 			<meta id="5c991a9b-a298-4a50-aab0-102f25922253" name="igloo.001"/>
+			<meta id="79c8afcd-1cbf-433f-8c9c-5f2401379319" name="SmokeEmitterL1D1"/>
 		</meta>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="45a644777f4129709d1cdb45a405e711"/>
+	<Md5Checksum value="84cdbd0f209c31cbca69e226d513e116"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -151,11 +151,6 @@
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="SmokeEmitterL1D1"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
 						<NodeName value="PATH_A_0.001"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
@@ -199,6 +194,11 @@
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
 						<NodeName value="igloo.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SmokeEmitterL1D1"/>
 					</Item>
 				</ChildList>
 				<NodeName value="iglooLevel1Density1Part"/>
