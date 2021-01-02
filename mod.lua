@@ -54,4 +54,3 @@ lunarRevel:register({
 --[[-------------------------------- DO FILES ---------------------------------]]--
 
 lunarRevel:dofile("scripts/fireworks.lua")
-lunarRevel:dofile("scripts/igloos.lua")
