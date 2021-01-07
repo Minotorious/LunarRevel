@@ -63,4 +63,5 @@ IdMap = {
 	{ "IGLOO_PART", "BUILDING_PART", "6ad7aea9-78fd-414c-a418-816bc956aade" },
 	{ "models/igloos.fbx", "", "147acb4f-b35e-4d2f-bc67-c0e9f6e2d442" },
 	{ "IGLOO_LEVEL_1_DENSITY_1_PART", "BUILDING_PART", "8ba87d63-e88c-4f91-9809-a569ebc410fd" },
+	{ "models/fireworksPoleFlag.png", "", "d517260e-79a2-4c16-902a-35e579bb2a24" },
 }
