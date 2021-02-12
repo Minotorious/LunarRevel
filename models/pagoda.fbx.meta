@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<meta id="a743cbe2-fbf4-42ae-9bf8-27fd0907b653">
+<meta id="a355082b-a5b1-4b6d-bd33-01a43bc6e039">
 	<meta id="892fcad5-a5fd-47f4-8e2b-1f2bac6df4b6" type="group" folder="true" name="Materials">
 		<meta id="50a069e6-0d95-4746-bc69-1b0ab1d58424" name="Material.WoodDark"/>
 		<meta id="b71def3b-2ade-47d4-b3b4-1450d000f2e8" name="Material.WoodLight"/>
-		<meta id="67d414eb-b151-4dca-ab38-e85245b0ba97" name="Material.002"/>
-		<meta id="7816f2cd-1fb5-4b9e-876a-1757fa569f69" name="Material.003"/>
-		<meta id="80ad9327-7682-4b9d-96fc-a322d303ae6c" name="Material.StonebrickLime"/>
 		<meta id="d8eba24a-c6ca-40cf-adad-5c0f98911c32" name="Material.MarbleWhite"/>
 		<meta id="8fa82e0c-82a5-4031-a467-b8d53a7ceddc" name="Material.ScalesRed"/>
 		<meta id="cd54ea49-f1cf-451b-ae4a-0a680bee5503" name="Material.MarbleBlue"/>
 		<meta id="b4a7c2fb-99e1-466a-85a4-a436bf423447" name="Material.WoodLightShaded"/>
 		<meta id="f077c559-910b-4ac7-9db2-bd646c2be1e9" name="Material.RoofLining"/>
+		<meta id="0bd6235e-eab8-42af-9312-af1ac8ffe32e" name="Material.Bison"/>
+		<meta id="a3ecc585-b044-406d-89a3-2647a0f410b9" name="Material.Red"/>
+		<meta id="0c07fff9-f3f9-4c28-bc95-bf8e7e50bd13" name="Material.Gold"/>
+		<meta id="9589bf51-6428-4bc4-8f18-426f059f87e0" name="Material.RedDark"/>
+		<meta id="7066ee8e-36b2-4b86-a432-bc3c7e3ede93" name="Material.Water"/>
+		<meta id="19d1dad3-707b-4d1c-b8aa-9b655277e3da" name="Material.MarbleGreyFloor"/>
 	</meta>
 	<meta id="f7a7b687-1bd4-4ea9-bf69-62b73a58ed9a" type="group" folder="true" name="Meshes">
 		<meta id="90d828be-f5c0-42e2-8d59-8afa3ce47a0a" name="Circle.011_Material.WoodDark"/>
@@ -39,19 +42,13 @@
 		<meta id="3539a27b-fbc8-4abc-8b4d-756db024cf2d" name="Circle.044_Material.WoodLight"/>
 		<meta id="a948146e-5530-41d3-87ed-6a1553046184" name="Circle.045_Material.WoodLight"/>
 		<meta id="6e554a8c-25fa-481a-9e2a-aba1a74a4c7a" name="Circle.046_Material.WoodLight"/>
-		<meta id="31373ec6-d8d6-46f7-9d00-0ddc4801b1a9" name="Cylinder.002_Material.002"/>
-		<meta id="58d991c6-c234-44a5-9a9a-d73b3da58b2c" name="Cylinder.016_Material.003"/>
 		<meta id="dc0b659e-89a4-48d8-88c8-632ebd2ee9aa" name="Circle.016_Material.WoodLight"/>
 		<meta id="17ad498d-7da8-4fc5-b92e-97b18e324269" name="Circle.027_Material.WoodLight"/>
 		<meta id="9b7d6e6a-357f-4d99-b414-999ca4a5f975" name="Circle.039_Material.WoodLight"/>
 		<meta id="e3ce69b6-0904-4036-8277-0e405b042192" name="Circle.050_Material.WoodLight"/>
-		<meta id="3bb05f19-493b-4cfb-9d91-03a4bfcc76e2" name="Cube_Material.StonebrickLime"/>
 		<meta id="d17caf3c-9561-4287-960c-32fa77f3e674" name="Cube.001_Material.MarbleWhite"/>
 		<meta id="eae87e30-c6cb-407d-90e7-832b8775efed" name="RoofScales_Material.ScalesRed"/>
 		<meta id="aa9fd022-8f73-494f-92af-ad7af220721d" name="Cube.025_Material.MarbleBlue"/>
-		<meta id="131ceb48-b452-4436-bdf6-8d1efe930ed5" name="Cylinder.001_Material.002"/>
-		<meta id="023e7426-1533-46e8-af19-26bde96b92db" name="Cylinder.003_Material.002"/>
-		<meta id="4b8741f9-2d14-4a20-b2cb-4f208b6c09f7" name="Cylinder.004_Material.002"/>
 		<meta id="e16fecec-dc39-4ef0-8f91-f5809bbeaf15" name="Cube.023_Material.WoodDark"/>
 		<meta id="a2fdeedf-8344-47be-bd0d-01b74b286481" name="Cylinder.017_Material.WoodLightShaded"/>
 		<meta id="8c0c7f0b-c715-49f0-bed0-737bd6501b36" name="Cylinder.019_Material.WoodLightShaded"/>
@@ -66,6 +63,46 @@
 		<meta id="3912ce37-29c7-44b4-b33d-8e447a268a04" name="Cube.007_Material.WoodLightShaded"/>
 		<meta id="eb98e6dc-1371-4077-85e3-ccc8b9f90903" name="Cube.008_Material.WoodLightShaded"/>
 		<meta id="fa181991-8c53-4410-b1b2-00d57a514fd6" name="RoofUnder_Material.RoofLining"/>
+		<meta id="ff097a4b-06ab-46ae-a240-bb9a99320274" name="Bison_Material.Bison"/>
+		<meta id="27fc6e5c-4a0b-4bda-a764-0cbbd67a3505" name="Cylinder.002_Material.Red"/>
+		<meta id="144fe972-2850-4eac-a56f-92310713aee1" name="Cylinder.001_Material.Red"/>
+		<meta id="a0116f9d-cdf7-4cf0-965a-6995dd52aa11" name="Cylinder.003_Material.Red"/>
+		<meta id="6a10011b-5394-4d24-b12e-e27cf2c32cfc" name="Cylinder.004_Material.Red"/>
+		<meta id="8d9552d2-4964-4ee3-9799-3ee32015e68b" name="Cylinder.016_Material.Gold"/>
+		<meta id="425824aa-b558-4952-9832-c4e4d16573bc" name="Cube.035_Material.RedDark"/>
+		<meta id="52c14fb5-c03b-4898-be8b-6e85760c86c6" name="Cube.036_Material.RedDark"/>
+		<meta id="3d94b6e8-f04f-43f7-82dc-cf2f88f5e7cd" name="Cube.037_Material.WoodDark"/>
+		<meta id="c6f74eaa-936c-4f4c-993c-52529d84a34a" name="Cylinder_Material.WoodDark"/>
+		<meta id="bbcf4393-4c78-4ded-917f-30d1fb3163f5" name="Circle.013_Material.WoodDark"/>
+		<meta id="96fb3840-b978-4c40-9bec-7f9fed25fd65" name="Circle.014_Material.WoodDark"/>
+		<meta id="093aa6dc-eda4-4b09-85af-b8a27784d362" name="Circle.015_Material.WoodDark"/>
+		<meta id="473769e1-97fa-41e2-a87c-3b1b064916f9" name="Cylinder.018_Material.Gold"/>
+		<meta id="2367d04a-daf4-4c51-89b7-9fa389dee600" name="Cube.024_Material.WoodDark"/>
+		<meta id="06070ca1-1c01-4dcc-badf-8320e2fbd056" name="Cube.026_Material.MarbleBlue"/>
+		<meta id="bd8aa1b4-e145-4281-8057-765483817481" name="Cylinder.005_Material.Gold"/>
+		<meta id="5f2b5472-2ee7-4676-a88a-a5da93c17418" name="Cube.011_Material.WoodDark"/>
+		<meta id="7b80e096-2ee4-4570-a8f0-10c7d0094b82" name="Cylinder.007_Material.Gold"/>
+		<meta id="a3b9573d-720d-4331-a0ec-d6b3013f3fa6" name="Cube.012_Material.WoodDark"/>
+		<meta id="e0e3fb4a-1459-407d-8387-f4eb068045dd" name="Cube.013_Material.MarbleBlue"/>
+		<meta id="d0ed44ab-5920-4290-99f2-15c485718394" name="Cube.014_Material.MarbleBlue"/>
+		<meta id="9eee594f-bca8-4923-bcb7-96a534aac346" name="Cube.032_Material.MarbleBlue"/>
+		<meta id="2b9d7f4b-c574-49e0-b2b0-40212564e750" name="PagodaPart_COLLIDER"/>
+		<meta id="7175f00b-977f-490b-b002-56ea40e5d229" name="Cylinder.021_Material.WoodLightShaded"/>
+		<meta id="1c23e7d3-f79a-4828-a06b-cc45428bab6a" name="Cylinder.021_Material.Water"/>
+		<meta id="3d8ad2d9-cf85-41e4-87c7-7aca024bdcfe" name="Cube_Material.MarbleGreyFloor"/>
+		<meta id="0b43740c-5f5c-4bc8-86dd-ee40b195b8b5" name="Cube.009_Material.MarbleGreyFloor"/>
+		<meta id="952e5526-d122-4d2b-95c6-2f2c3142995f" name="Cube.015_Material.MarbleGreyFloor"/>
+		<meta id="4020c91c-0066-4bb8-a206-804e5fead624" name="Cube.038_Material.MarbleGreyFloor"/>
+		<meta id="e4864e00-2c9f-4060-baff-ea0a436334d2" name="Cube.039_Material.MarbleGreyFloor"/>
+		<meta id="a5038218-cb53-4be0-8e90-a541a9238820" name="Cube.040_Material.MarbleGreyFloor"/>
+		<meta id="d1059d0e-22e1-4556-a904-64fc027903f8" name="Cube.041_Material.MarbleGreyFloor"/>
+		<meta id="757aec8f-7017-4234-a48a-9e47b1cf9a4a" name="Cube.042_Material.MarbleGreyFloor"/>
+		<meta id="248f141f-300e-4e53-a35f-1470321021c5" name="Cube.043_Material.MarbleGreyFloor"/>
+		<meta id="d279cf75-ea5e-4857-b60f-b152fe3132b4" name="Cube.044_Material.MarbleGreyFloor"/>
+		<meta id="25737820-3eab-4c2f-ad5d-5a5b5a6967a7" name="Cube.045_Material.MarbleGreyFloor"/>
+		<meta id="9aa491e3-e3f7-422c-80a5-aa046338bd6e" name="Cube.002_Material.MarbleWhite"/>
+		<meta id="fa0e70a6-4405-4545-8639-296993a42b34" name="Cube.003_Material.MarbleWhite"/>
+		<meta id="e592f704-fbf5-48c1-b4ce-ca89298db0db" name="Cube.004_Material.MarbleWhite"/>
 	</meta>
 	<meta id="e3c24bac-aab8-4be2-af0e-33b698d80377" name="Prefab">
 		<meta id="63c547ae-cfef-4198-a957-be7bdc1ff094" name="Light"/>
@@ -100,7 +137,6 @@
 			<meta id="b27adac5-c40a-4054-82b8-d29b2c4e37e0" name="Cube.012"/>
 			<meta id="87046f43-69aa-45df-90de-07786cf55122" name="Cylinder.007"/>
 			<meta id="ae418901-dd10-4da6-9d93-a6e350625bf3" name="Cube.013"/>
-			<meta id="3603b2ff-5c6b-4461-b037-0d8592637dad" name="Cube.009"/>
 			<meta id="0602f400-8dcc-4289-8002-6fd339741059" name="Circle.001"/>
 			<meta id="7d91304e-7f27-4fda-963a-a4f7207cced5" name="Circle.004"/>
 			<meta id="5bdf0c64-5b96-4a4b-922f-5cf3550a7a7a" name="Circle.005"/>
@@ -119,7 +155,6 @@
 			<meta id="752794b8-b89d-42eb-8169-5be1f18cc6af" name="Circle.029"/>
 			<meta id="ee6fad02-b0fc-41b9-acfe-048af5667508" name="Circle.030"/>
 			<meta id="5c41d120-e647-4126-9235-36b2aa766c13" name="Circle.031"/>
-			<meta id="a5ccd4c0-9b1c-4a8e-8473-4de09b4cf902" name="Cube.015"/>
 			<meta id="f3c02eb3-d203-40f0-b2ef-dd53713735a0" name="Cube.011"/>
 			<meta id="a007681b-668e-41c9-8277-1bd28a82e31d" name="Cylinder.008"/>
 			<meta id="aa37258e-4e8c-44e3-a338-3eb8e6e8fd4e" name="Cube.014"/>
@@ -177,13 +212,46 @@
 			<meta id="44ebb77f-5f46-492c-bf5d-11276c454e6a" name="Cube.032"/>
 			<meta id="5053d639-7443-474d-8cda-bc97fff122b1" name="Cube.033"/>
 			<meta id="86b75be5-a3ea-4496-952b-44212d6f68cf" name="Cube.034"/>
+			<meta id="d265369a-0a8f-4071-a038-58e0c3c333af" name="Bison"/>
+			<meta id="04457d82-a217-41c8-bd69-b9291c0ae69a" name="Cube.035"/>
+			<meta id="fe249144-dbc1-4d0e-8514-02203b17a1a6" name="Cylinder"/>
+			<meta id="e7faef34-0aa7-47d5-916b-4a834ad66d06" name="Cube.036"/>
+			<meta id="dc1ed7e6-8f50-43bd-9df7-d7be8f13dff0" name="Cube.037"/>
+			<meta id="48b92b54-4b68-47ae-9cc0-24bb6180e857" name="FireworksEmitterYellow"/>
+			<meta id="a6b0d09a-8505-43fa-ac1f-b1ed1e77ad1a" name="FireworksEmitterRed.004"/>
+			<meta id="93392ea4-7ae8-4127-89fe-11faf9587d02" name="FireworksEmitterRed.001"/>
+			<meta id="0919ec49-87c2-4c0c-9e19-0faae9b12590" name="FireworksEmitterRed.002"/>
+			<meta id="687b9722-83ca-424a-9d5c-10c7f78cf596" name="FireworksEmitterRed.003"/>
+			<meta id="2bd2f96f-55cb-4efa-aede-ecdf20742fff" name="PATH_ABCD_4"/>
+			<meta id="5d5ff3ae-4669-4a56-8bef-4bdb2a69dee3" name="PATH_A_1"/>
+			<meta id="9a8c3f2c-d98d-44c5-9abe-4553fafcf44e" name="PATH_B_2"/>
+			<meta id="2c1af1cc-c3f5-4d86-a576-54dd456af996" name="PATH_B_1"/>
+			<meta id="72118dc4-2976-4501-9786-02b949495d10" name="PATH_C_2"/>
+			<meta id="d5ca0914-c533-4c5d-8b7c-116fa304dee7" name="PATH_C_1"/>
+			<meta id="b4e2176c-8ad8-4f4b-a61f-7bd86a9b4524" name="PATH_D_1"/>
+			<meta id="a44304fa-09f4-481a-9a06-e6fcc8ca831d" name="PATH_D_2"/>
+			<meta id="47760eb8-8a2e-4f50-b129-5848c49a107c" name="PATH_D_3"/>
+			<meta id="938b0764-68f4-4884-9ec8-64a90917a1b3" name="Cylinder.021">
+				<meta id="37738aef-71ae-49ae-945e-6c874ff236d3" name="Cylinder.021_0"/>
+				<meta id="ef739992-18c2-4143-88f7-8170fe551403" name="Cylinder.021_1"/>
+			</meta>
+			<meta id="5fd24df5-2f68-405b-b349-0552966510a0" name="Cube.009"/>
+			<meta id="6679d6d7-7c53-4bda-8dac-b891b709cb0e" name="Cube.015"/>
+			<meta id="9cf352e2-420c-4dd1-8afe-189b88f6f475" name="Cube.038"/>
+			<meta id="361a8086-2baf-4f0e-8a15-7bf4498e7680" name="Cube.039"/>
+			<meta id="06c105cd-b20e-4a0c-98b2-b526cd36fbc9" name="Cube.040"/>
+			<meta id="d2f79110-ba43-4a5b-b880-1f081c30a1be" name="Cube.041"/>
+			<meta id="a092fd90-cd38-49bb-9727-90a47ab26c24" name="Cube.042"/>
+			<meta id="009bb47e-7af8-467b-a6d0-0f3e1151208c" name="Cube.043"/>
+			<meta id="6a6c516e-3bb8-43f7-8027-9cc75445e5bf" name="Cube.044"/>
+			<meta id="d52d5902-9c13-456c-a541-d12e2be22c5c" name="Cube.045"/>
 		</meta>
 		<meta id="decc76b3-86e3-4e5a-a86c-5dd62ffb4ad1" name="BezierCircle"/>
 		<meta id="40880caa-eeff-48d0-b287-46ce6c0cb397" name="BezierSquare"/>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="8d24d6aa90e4e12476bbfb50aabebacc"/>
+	<Md5Checksum value="9319d29bc43b7faa0c94ac8e3a862f38"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -357,11 +425,6 @@
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Cube.009"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
 						<NodeName value="Circle.001"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
@@ -448,11 +511,6 @@
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
 						<NodeName value="Circle.031"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.015"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
@@ -739,6 +797,167 @@
 						<ChildList/>
 						<NodeName value="Cube.034"/>
 					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Bison"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.035"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.036"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.037"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="FireworksEmitterYellow"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="FireworksEmitterRed.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="FireworksEmitterRed.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="FireworksEmitterRed.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="FireworksEmitterRed.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="PATH_ABCD_4"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="PATH_A_1"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="PATH_B_2"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="PATH_B_1"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="PATH_C_2"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="PATH_C_1"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="PATH_D_1"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="PATH_D_2"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="PATH_D_3"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="Cylinder.021_0"/>
+							</Item>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="Cylinder.021_1"/>
+							</Item>
+						</ChildList>
+						<NodeName value="Cylinder.021"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.009"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.015"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.038"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.039"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.040"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.041"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.042"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.043"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.044"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.045"/>
+					</Item>
 				</ChildList>
 				<NodeName value="PagodaPart"/>
 			</Item>
@@ -757,20 +976,32 @@
 	</NodeConfig>
 	<MaterialList>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="67d414eb-b151-4dca-ab38-e85245b0ba97"/>
-			<MaterialName value="Material.002"/>
+			<MaterialGuid value="0bd6235e-eab8-42af-9312-af1ac8ffe32e"/>
+			<MaterialName value="Material.Bison"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="7816f2cd-1fb5-4b9e-876a-1757fa569f69"/>
-			<MaterialName value="Material.003"/>
+			<MaterialGuid value="0c07fff9-f3f9-4c28-bc95-bf8e7e50bd13"/>
+			<MaterialName value="Material.Gold"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="cd54ea49-f1cf-451b-ae4a-0a680bee5503"/>
 			<MaterialName value="Material.MarbleBlue"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="19d1dad3-707b-4d1c-b8aa-9b655277e3da"/>
+			<MaterialName value="Material.MarbleGreyFloor"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="d8eba24a-c6ca-40cf-adad-5c0f98911c32"/>
 			<MaterialName value="Material.MarbleWhite"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="a3ecc585-b044-406d-89a3-2647a0f410b9"/>
+			<MaterialName value="Material.Red"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="9589bf51-6428-4bc4-8f18-426f059f87e0"/>
+			<MaterialName value="Material.RedDark"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="f077c559-910b-4ac7-9db2-bd646c2be1e9"/>
@@ -781,8 +1012,8 @@
 			<MaterialName value="Material.ScalesRed"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="80ad9327-7682-4b9d-96fc-a322d303ae6c"/>
-			<MaterialName value="Material.StonebrickLime"/>
+			<MaterialGuid value="7066ee8e-36b2-4b86-a432-bc3c7e3ede93"/>
+			<MaterialName value="Material.Water"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="50a069e6-0d95-4746-bc69-1b0ab1d58424"/>
