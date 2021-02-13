@@ -1,8 +1,11 @@
 {
 	"": {
         "PAGODA_NAME": "Ox Pagoda",
-        "PAGODA_DESC": "Building the Ox Pagoda initiates the celebration of the Lunar New Year with fireworks above every house",
         "PAGODA_PART_NAME": "Ox Pagoda",
-        "PAGODA_PART_DESC": "Building the Ox Pagoda initiates the celebration of the Lunar New Year with fireworks above every house"
+        
+        "FIREWORKS_ENABLER_CATEGORY_NAME": "Housing Fireworks Enabling Part",
+        
+        "FIREWORKS_ENABLING_PART_NAME": "Fireworks Enabler",
+        "FIREWORKS_ENABLING_PART_DESC": "Building this transparent cube initiates the celebration of the Lunar New Year with fireworks above every house, remove the cube to stop the fireworks"
     }
 }

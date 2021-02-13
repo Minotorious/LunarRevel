@@ -11,11 +11,19 @@ local lunarRevel = ...
 --[[--------------------------- PREFABS & MATERIALS ---------------------------]]--
 
 lunarRevel:registerAssetId("models/pagoda.fbx/Prefab/PagodaPart", "PREFAB_PAGODA_PART")
+lunarRevel:registerAssetId("models/pagoda.fbx/Prefab/FireworksEnablingPart", "PREFAB_FIREWORKS_ENABLING_PART")
+
 lunarRevel:registerAssetId("models/pagoda.fbx/Materials/Material.Bison", "MATERIAL_BISON")
+lunarRevel:registerAssetId("models/pagoda.fbx/Materials/Material.Transparent", "MATERIAL_TRANSPARENT")
 
 lunarRevel:override({
     Id = "MATERIAL_BISON",
     IsLighted = false
+})
+
+lunarRevel:override({
+    Id = "MATERIAL_TRANSPARENT",
+    HasAlphaTest = true
 })
 
 --[[---------------------------- CUSTOM COMPONENTS ----------------------------]]--
@@ -65,8 +73,11 @@ end
 
 lunarRevel:registerClass(COMP_ASSIGN_EMITTERS)
 
-lunarRevel:registerPrefabComponent("models/pagoda.fbx/Prefab/PagodaPart", { DataType = "COMP_BUILDING_PART", FeedbackComponentListToActivate = { { "PREFAB_PAGODA_PART", "COMP_ASSIGN_EMITTERS" } } })
-lunarRevel:registerPrefabComponent("models/pagoda.fbx/Prefab/PagodaPart", { DataType = "COMP_ASSIGN_EMITTERS", Enabled = true })
+--lunarRevel:registerPrefabComponent("models/pagoda.fbx/Prefab/PagodaPart", { DataType = "COMP_BUILDING_PART", FeedbackComponentListToActivate = { { "PREFAB_PAGODA_PART", "COMP_ASSIGN_EMITTERS" } } })
+--lunarRevel:registerPrefabComponent("models/pagoda.fbx/Prefab/PagodaPart", { DataType = "COMP_ASSIGN_EMITTERS", Enabled = true })
+
+lunarRevel:registerPrefabComponent("models/pagoda.fbx/Prefab/FireworksEnablingPart", { DataType = "COMP_BUILDING_PART", FeedbackComponentListToActivate = { { "PREFAB_FIREWORKS_ENABLING_PART", "COMP_ASSIGN_EMITTERS" } } })
+lunarRevel:registerPrefabComponent("models/pagoda.fbx/Prefab/FireworksEnablingPart", { DataType = "COMP_ASSIGN_EMITTERS", Enabled = true })
 
 --[[--------------------- ASSET PROCESSOR & NODE HANDLING ---------------------]]--
 --[[--------------------------- COMPONENT ASSIGNMENT --------------------------]]--
@@ -82,16 +93,24 @@ lunarRevel:register({
     DataType = "BUILDING",
     Id = "PAGODA",
     Name = "PAGODA_NAME",
-    Description = "PAGODA_DESC",
+    --Description = "PAGODA_DESC",
     BuildingType = "DECORATION",
-    AssetCoreBuildingPart = "PAGODA_PART"
+    AssetCoreBuildingPart = "PAGODA_PART",
+    BuildingPartSetList = {
+        {
+            Name = "FIREWORKS_ENABLER_CATEGORY_NAME",
+            BuildingPartList = {
+                "FIREWORKS_ENABLING_PART"
+            }
+        }
+    }
 })
 
 lunarRevel:register({
     DataType = "BUILDING_PART",
     Id = "PAGODA_PART",
     Name = "PAGODA_PART_NAME",
-    Description = "PAGODA_PART_DESC",
+    --Description = "PAGODA_PART_DESC",
     ConstructorData = {
         DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
         CoreObjectPrefab = "PREFAB_PAGODA_PART"
@@ -118,6 +137,29 @@ lunarRevel:register({
         }
     },
     IsVisibleWhenBuilt = true
+})
+
+lunarRevel:register({
+    DataType = "BUILDING_PART",
+    Id = "FIREWORKS_ENABLING_PART",
+    Name = "FIREWORKS_ENABLING_PART_NAME",
+    Description = "FIREWORKS_ENABLING_PART_DESC",
+    ConstructorData = {
+        DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+        CoreObjectPrefab = "PREFAB_FIREWORKS_ENABLING_PART"
+    },
+    BuildingZone = {
+        ZoneEntryList = {}
+    },
+    ConstructionVisual = nil,
+    Cost = {
+        RessourcesNeeded = {}
+    },
+    DesirabilityModifiers = {},
+    IsVisibleWhenBuilt = true,
+    IsShowInUi = true,
+    HasMaximumInstancePerBuilding = true,
+    MaximumInstancePerBuilding = 1
 })
 
 --[[----------------------------- PARTICLE SYSTEMS ----------------------------]]--

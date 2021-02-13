@@ -14,6 +14,7 @@
 		<meta id="9589bf51-6428-4bc4-8f18-426f059f87e0" name="Material.RedDark"/>
 		<meta id="7066ee8e-36b2-4b86-a432-bc3c7e3ede93" name="Material.Water"/>
 		<meta id="19d1dad3-707b-4d1c-b8aa-9b655277e3da" name="Material.MarbleGreyFloor"/>
+		<meta id="d4b8d72f-b023-478e-8672-ec55e014b375" name="Material.Transparent"/>
 	</meta>
 	<meta id="f7a7b687-1bd4-4ea9-bf69-62b73a58ed9a" type="group" folder="true" name="Meshes">
 		<meta id="90d828be-f5c0-42e2-8d59-8afa3ce47a0a" name="Circle.011_Material.WoodDark"/>
@@ -103,6 +104,7 @@
 		<meta id="9aa491e3-e3f7-422c-80a5-aa046338bd6e" name="Cube.002_Material.MarbleWhite"/>
 		<meta id="fa0e70a6-4405-4545-8639-296993a42b34" name="Cube.003_Material.MarbleWhite"/>
 		<meta id="e592f704-fbf5-48c1-b4ce-ca89298db0db" name="Cube.004_Material.MarbleWhite"/>
+		<meta id="2ff8be4a-39dd-481f-a102-f0308315f726" name="FireworksEnablingCube_Material.Transparent"/>
 	</meta>
 	<meta id="e3c24bac-aab8-4be2-af0e-33b698d80377" name="Prefab">
 		<meta id="63c547ae-cfef-4198-a957-be7bdc1ff094" name="Light"/>
@@ -248,10 +250,13 @@
 		</meta>
 		<meta id="decc76b3-86e3-4e5a-a86c-5dd62ffb4ad1" name="BezierCircle"/>
 		<meta id="40880caa-eeff-48d0-b287-46ce6c0cb397" name="BezierSquare"/>
+		<meta id="aba17ac5-564e-4b3e-a89a-b6469dfa9230" name="FireworksEnablingPart">
+			<meta id="936c96f1-09bf-4438-af7d-428f16b40934" name="FireworksEnablingCube"/>
+		</meta>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="9319d29bc43b7faa0c94ac8e3a862f38"/>
+	<Md5Checksum value="b03a61b2bba100257089107f54f1d3f8"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -971,6 +976,17 @@
 				<ChildList/>
 				<NodeName value="BezierSquare"/>
 			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="FireworksEnablingCube"/>
+					</Item>
+				</ChildList>
+				<NodeName value="FireworksEnablingPart"/>
+			</Item>
 		</ChildList>
 		<NodeName value="Prefab"/>
 	</NodeConfig>
@@ -1010,6 +1026,10 @@
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="8fa82e0c-82a5-4031-a467-b8d53a7ceddc"/>
 			<MaterialName value="Material.ScalesRed"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="d4b8d72f-b023-478e-8672-ec55e014b375"/>
+			<MaterialName value="Material.Transparent"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="7066ee8e-36b2-4b86-a432-bc3c7e3ede93"/>
